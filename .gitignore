@@ -114,3 +114,6 @@ db_snapshots/
 /.github/scripts/*
 !/.github/scripts/provision-test-database.exs
 !/.github/scripts/extension_installation_test.exs
+!/.github/scripts/gitleaks-ci.sh
+!/.github/scripts/gitleaks-ci.test.sh
+!/.github/scripts/protect-opencode-workflow.test.js

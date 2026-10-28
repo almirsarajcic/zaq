@@ -1,3 +1,7 @@
+# Without this, a repository config replaces the default rules and detects nothing.
+[extend]
+  useDefault = true
+
 [allowlist]
   description = "Test fixtures and known safe values"
   regexes = [
